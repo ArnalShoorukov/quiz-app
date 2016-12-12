@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    style="@style/scroll">
+
+    <LinearLayout style="@style/linear1">
+
+        <EditText
+            android:id="@+id/editText"
+            style="@style/name" />
+
+        <TextView
+            android:id="@+id/top_ping"
+            style="@style/intro" />
+
+        <View style="@style/seperator" />
+
+        <TextView
+            android:id="@+id/first_question"
+            style="@style/firstText" />
+
+        <EditText
+            android:id="@+id/firstedit"
+            style="@style/firstEdit" />
+
+        <View style="@style/seperator" />
+
+        <TextView
+            android:id="@+id/second_question"
+            style="@style/secondText" />
+
+        <LinearLayout style="@style/linear2">
+
+            <CheckBox
+                android:id="@+id/a"
+                style="@style/checkA" />
+
+            <CheckBox
+                android:id="@+id/b"
+                style="@style/checkB" />
+
+            <CheckBox
+                android:id="@+id/c"
+                style="@style/checkC" />
+
+            <CheckBox
+                android:id="@+id/d"
+                style="@style/checkD" />
+        </LinearLayout>
+
+        <View style="@style/seperator" />
+
+        <TextView
+            android:id="@+id/third_question"
+            style="@style/thirdText" />
+
+        <LinearLayout style="@style/linear3">
+
+            <ImageView
+                android:id="@+id/image"
+                style="@style/image" />
+
+            <EditText
+                android:id="@+id/third_edit"
+                style="@style/thirdAnswer" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/forth_question"
+            style="@style/fourthText" />
+
+        <EditText
+            android:id="@+id/fourthedit"
+            style="@style/fourthAnswer" />
+
+        <View style="@style/seperator" />
+
+        <TextView
+            android:id="@+id/fifth_question"
+            style="@style/fifthText" />
+
+        <LinearLayout style="@style/linear4">
+
+            <CheckBox
+                android:id="@+id/a5"
+                style="@style/checkA5" />
+
+            <CheckBox
+                android:id="@+id/b5"
+                style="@style/checkB5" />
+
+            <CheckBox
+                android:id="@+id/c5"
+                style="@style/checkC5" />
+
+            <CheckBox
+                android:id="@+id/d5"
+                style="@style/checkD5" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/sixth_question"
+            style="@style/sixthText" />
+        <RadioGroup
+            android:id="@+id/radioG"
+           style="@style/rGroup">
+            <RadioButton
+                android:id="@+id/RadioButton"
+                style="@style/r1"/>
+            <RadioButton
+                android:id="@+id/RadioButton1"
+                style="@style/r2"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/submit"
+            style="@style/submit" />
+
+        <Button
+            android:id="@+id/share"
+            style="@style/share" />
+    </LinearLayout>
+</ScrollView>

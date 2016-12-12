@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">QuizzApp</string>
+    <string name="intro">Please take challenge your knowledge in math by taking following questions</string>
+    <string name="first">1. What is missing out of the trio. Sine, Cosine and ..,</string>
+    <string name="four">4. Whose theorem states that ‘a square on the hypotenuse is equal to the sum of the squares on the other two sides? </string>
+    <string name="fifth">5. Please find and select units for measurement of distance between two points. </string>
+    <string name="second">2. PLease find and select complex numbers </string>
+    <string name="a">4    </string>
+    <string name="b">8+2i   </string>
+    <string name="c">3+x   </string>
+    <string name="d">1+j   </string>
+    <string name="a5">cm</string>
+    <string name="b5">pound</string>
+    <string name="c5">mm</string>
+    <string name="d5">kg</string>
+    <string name="third">3. Please write down name of figure.</string>
+    <string name="sixth">6. If a bag of 30 sweets weighs 20g, how many sweets would weigh 1kg?</string>
+    <string name="submit">submit answer</string>
+    <string name="share">share answer</string>
+
+
+</resources>
